@@ -1,1 +1,29 @@
-Method1
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class one
+{
+	public void print_dog()
+	{
+		System.out.println("Dog");
+		}
+	}
+
+class two extends one
+{
+	public void print_for()
+	{
+		System.out.println("eat");
+		}
+	}
+
+public class Dog {
+	public static void main (String[] args)
+	{
+	two g = new two();
+	g.print_dog();
+	g.print_for();
+	g.print_dog();
+	}
+}
